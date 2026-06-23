@@ -22,3 +22,10 @@ pnpm i @types/express @types/node -D
 
 docker ps // running container
 docker images // images on docker machine
+    pnpm docker:down
+docker compose down -v   # removes postgres_data volume
+pnpm docker:up
+pnpm studio
+
+drizzle db schema
+    never direct push on drizzle
