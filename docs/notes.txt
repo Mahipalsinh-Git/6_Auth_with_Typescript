@@ -19,3 +19,6 @@ script
 
 pnpm i express 
 pnpm i @types/express @types/node -D
+
+docker ps // running container
+docker images // images on docker machine

@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node dist/index",
     "build": "tsc -p .",
-    "dev": "tsc-watch --onSuccess \"node dist/index\""
+    "dev": "tsc-watch --onSuccess \"node dist/index\"",
+    "docker-up": "docker compose up -d",
+    "docker-down": "docker compose down"
   },
   "keywords": [],
   "author": "",
