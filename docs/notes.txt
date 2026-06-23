@@ -1,0 +1,18 @@
+ORM
+    drizzle for typescript
+    kysely
+    sequelize 
+    kenx.js
+    typeorm
+    objections.js
+    prisma
+
+
+tsc --init
+
+pnpm i tsc-watch // for hot-reload
+
+script
+    start
+    build
+    run
