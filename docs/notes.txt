@@ -16,3 +16,6 @@ script
     start
     build
     run
+
+pnpm i express 
+pnpm i @types/express @types/node -D
